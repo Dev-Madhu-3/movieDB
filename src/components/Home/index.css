@@ -1,0 +1,11 @@
+.responsive-container {
+  padding: 20px;
+  background-color: rgb(155, 155, 255);
+}
+.home-popular-movies-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}

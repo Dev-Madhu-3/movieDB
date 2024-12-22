@@ -1,0 +1,117 @@
+single-movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-image {
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.banner-image-container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to left,
+    #ff7474,
+    #ddd8d8,
+    rgb(141, 137, 137),
+    #595858,
+    black,
+    black,
+    black
+  );
+  gap: 50px;
+}
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+}
+.duration {
+  color: #b3a9ff;
+}
+
+.mv-name {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(183, 183, 183);
+  font-weight: 700;
+  margin: 0;
+}
+.mv-name span {
+  font-size: 45px;
+}
+.disc {
+  font-size: 15px;
+  color: #f8f8f8;
+  width: 50%;
+}
+.tagline {
+  color: rgb(189, 189, 246);
+  font-size: 15px;
+  margin: 0;
+}
+.movie-name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.details-con {
+  gap: 5px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.details-con p {
+  margin: 10px 0;
+}
+
+.details-con p span {
+  font-size: 15px;
+}
+.castCard {
+  height: 270px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #dddfff;
+  border: 1px solid rgb(178, 178, 178);
+  border-radius: 5px;
+}
+
+.castCard img {
+  width: 100%;
+  height: 70%;
+}
+
+.castName {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}
+.castRealName {
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+.cast-container {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.cast-crew-cards-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 35px;
+  padding-left: 10px;
+}
