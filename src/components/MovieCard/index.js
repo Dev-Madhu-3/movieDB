@@ -24,9 +24,11 @@ function MovieCard(props) {
           Rating:<span className="rating-span">{` ${voteAverage} / 10`}</span>{' '}
         </p>
 
-        <Link to={`/${id}`} className="details-btn">
-          View Details
-        </Link>
+        <button className="details-btn">
+          <Link to={`/${id}`} className="details-link">
+            View Details
+          </Link>
+        </button>
       </div>
     </div>
   )

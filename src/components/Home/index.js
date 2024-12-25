@@ -29,7 +29,7 @@ function Home() {
     <div className="home-container">
       <Navbar />
       <div className="responsive-container">
-        <h1 className="home-heading">Popular</h1>
+        <h1 className="home-heading">Popular Movies</h1>
         <div className="home-popular-movies-container">
           {MoviesList.map(eachItem => (
             <MovieCard key={eachItem.id} movieDetails={eachItem} />
